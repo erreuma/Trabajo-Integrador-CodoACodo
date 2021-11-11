@@ -1,0 +1,176 @@
+
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/* estilo sección navbar */
+.buttonNavbarColapse{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;  
+}
+
+#comprar-tickets{
+    border-radius: 5px;
+    color: rgb(23, 141, 19);
+    filter: brightness(2);
+
+}
+
+.estilo-nav{
+    filter: opacity(.6);
+}
+
+
+span.navbar-toggler-icon {
+    background-color: rgb(121, 124, 124);
+    color: azure;
+}
+
+
+
+/* estilos sección  carrousel */
+.botones button{
+    margin-left: 10px;
+}
+
+
+
+.btn-comprar-tickets{
+    background-color:rgb(32, 148, 109);
+    filter:  opacity(1);
+    color: rgb(246, 251, 253);
+    text-decoration: none;
+}
+
+
+.card-container {
+    position: absolute;
+    bottom: 129px;
+}
+
+#carouselExampleDark{
+    position:relative;
+    filter:brightness(0.4);
+    z-index:-1; 
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+
+.imagen{
+   
+    width: 100%;
+    height: 100vh;
+    filter: brightness(1);
+    margin-top: -30px;
+    
+    
+}
+
+
+
+.parrafo{
+    text-align: end;
+}
+
+
+/* estilo sección conoce mas */
+
+.containerCardText{
+    background-color: rgb(91, 91, 104);
+}
+
+
+.img-knowMore{
+    width: 100%;
+    height: 100%;
+}
+
+/* estilos sección formulario  */
+
+    .speakers{ 
+    color: rgb(51, 197, 187);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.speakers:hover{
+    border-bottom: 1px dotted rgb(236, 17, 152);
+    color: rgb(247, 107, 172);
+   
+}
+
+
+button.btn-enviar{
+    background-color:#1b8f76;;
+    border-color: #78a3a51c;
+    color: rgb(247, 252, 251);
+    letter-spacing: 2px;
+}
+
+button.btn-enviar:hover{
+    background-color: rgb(9, 141, 250);
+    color: rgb(245, 233, 230);
+    text-shadow: 1px 1px 3px rgb(20, 20, 20);
+}
+
+.textarea-remember{
+   color: rgb(1, 44, 26);
+   
+}
+
+
+
+/* estilos footer */
+
+footer{
+
+    background-color: #2e596d;
+}
+
+#pie a{
+    text-decoration: none;
+    color: white;
+}
+
+.rights{
+  color: rgb(167, 225, 228);
+  font-size: 14px;
+  font-weight: 100;
+
+}
+
+@media (min-width:770px){
+    .formulario{
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+
+@media (min-width:990px){
+
+    .buttonNavbarColapse{
+        width: 10%;
+        display: inline;   
+        
+    }
+    .estilo-nav{
+        filter: opacity(1);
+    }
+    
+    
+}
+
+
+
